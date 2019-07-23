@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>audios</id>
+    <version>1.0.0</version>
+    <title>cvcv</title>
+    <authors>dfdf</authors>
+    <owners>dfdf</owners>
+    <developmentDependency>true</developmentDependency>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>fddf</description>
+    <copyright>333</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Forms" version="4.1.0.581479" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/kamal/Desktop/XamarinAudioPlayer/XamarinAudioPlayer/bin/Release/netstandard2.0/XamarinAudioPlayer.dll" target="lib/netstandard2.0/XamarinAudioPlayer.dll" />
+  </files>
+</package>
