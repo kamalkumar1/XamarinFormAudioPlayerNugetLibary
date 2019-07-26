@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XamarinAudioPlayer</name>
+    </assembly>
+    <members>
+        <member name="T:XamarinAudioPlayer.IAudioInterface">
+            <summary>
+            Interface class to acess native libary
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.SetUpAudio(System.String,System.String)">
+            <summary>
+            Used  to Get the File Path of the audio Player
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.Play">
+            <summary>
+            Used  to play the Audio
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.Pause">
+            <summary>
+            Used  to pause the Audio
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.Restart">
+            <summary>
+            Used  to Restart the Audio
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.RemoveNotification">
+            <summary>
+            Used  to audio  instance
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.PlayerCurrettime">
+            <summary>
+            Get current audio play time
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.GetTotaltime">
+            <summary>
+            Get total audio play time
+            </summary>
+        </member>
+        <member name="M:XamarinAudioPlayer.IAudioInterface.MediaTotalDuration">
+            <summary>
+            Get total audio play time
+            </summary>
+        </member>
+    </members>
+</doc>

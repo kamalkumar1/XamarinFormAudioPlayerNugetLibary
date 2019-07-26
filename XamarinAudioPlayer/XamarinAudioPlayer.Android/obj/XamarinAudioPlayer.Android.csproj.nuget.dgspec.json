@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kamal/Documents/Test/XamarinAudioPlayer/XamarinAudioPlayer.Android/XamarinAudioPlayer.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/kamal/Documents/Test/XamarinAudioPlayer/XamarinAudioPlayer.Android/XamarinAudioPlayer.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kamal/Documents/Test/XamarinAudioPlayer/XamarinAudioPlayer.Android/XamarinAudioPlayer.Android.csproj",
+        "projectName": "XamarinAudioPlayer.Android",
+        "projectPath": "/Users/kamal/Documents/Test/XamarinAudioPlayer/XamarinAudioPlayer.Android/XamarinAudioPlayer.Android.csproj",
+        "packagesPath": "/Users/kamal/.nuget/packages/",
+        "outputPath": "/Users/kamal/Documents/Test/XamarinAudioPlayer/XamarinAudioPlayer.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/kamal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/kamal/Documents/Test/XamarinAudioPlayer": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.581479, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

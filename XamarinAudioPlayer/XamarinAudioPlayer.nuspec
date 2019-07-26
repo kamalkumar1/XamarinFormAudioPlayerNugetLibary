@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XamarinAudioPlayer.Forms.kk</id>
+    <version>1.0.0.0</version>
+    <title>XamarinAudioPlayer</title>
+    <authors>kamal</authors>
+    <owners>kamal</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ios and android</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Tag1 Tag2</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies >
+
+  </metadata>
+  <files>
+   <!-- Cross-platform reference assemblies -->
+    <file src="XamarinAudioPlayer\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+    <!-- iOS reference assemblies -->
+        <file src="XamarinAudioPlayer.iOS\bin\Release\XamarinAudioPlayer.iOS.dll" target="lib\xamarinios10\XamarinAudioPlayer.iOS.dll" />
+        <file src="XamarinAudioPlayer.iOS\bin\Release\XamarinAudioPlayer.iOS.pdb" target="lib\xamarinios10\XamarinAudioPlayer.iOS.pdb" />
+        <file src="XamarinAudioPlayer\bin\Release\netstandard2.0\XamarinAudioPlayer.dll" target="lib\xamarinios10\XamarinAudioPlayer.dll" />
+        <!--<file src="XamarinAudioPlayer.iOS\bin\Release\XamarinAudioPlayer.xml" target="lib\xamarinios10\XamarinAudioPlayer.xml" />-->
+        
+        <!-- Android reference assemblies -->
+        <file src="XamarinAudioPlayer.Android\bin\Release\XamarinAudioPlayer.Android.dll" target="lib\monoandroid1\XamarinAudioPlayer.Android.dll" />
+        <file src="XamarinAudioPlayer.Android\bin\Release\XamarinAudioPlayer.Android.pdb" target="lib\monoandroid1\XamarinAudioPlayer.Android.pdb" />
+        <file src="XamarinAudioPlayer\bin\Release\netstandard2.0\XamarinAudioPlayer.dll" target="lib\monoandroid1\XamarinAudioPlayer.dll" />
+         <!--<file src="XamarinAudioPlayer.Android\bin\Release\XamarinAudioPlayer.xml" target="lib\monoandroid1\XamarinAudioPlayer.xml" />-->
+        
+    
+  </files>
+   
+</package>
